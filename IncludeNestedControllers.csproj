@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <TargetFrameworks>net6.0;net5.0;netstandard2.1;netstandard2.0</TargetFrameworks>
+	  <LangVersion>latest</LangVersion>
+	  <PackageTags>Nested controller Web API ASP NET Core Microsoft Extensions DependencyInjection</PackageTags>
+	  <PackageProjectUrl>https://github.com/BenjaminCharlton/IncludeNestedControllers</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/BenjaminCharlton/IncludeNestedControllers</RepositoryUrl>
+	  <Description>Tells ASP .NET Core (and 5.0 and 6.0) to include controllers that are nested inside other classes.</Description>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Authors>Benjamin Charlton</Authors>
+	  <Version>1.0.0</Version>
+	  <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
